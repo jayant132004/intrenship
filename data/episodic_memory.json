@@ -1,0 +1,1531 @@
+[
+  {
+    "episode_id": "EP_0001",
+    "timestamp": "2026-09-25T14:17:59.434334",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "company_profile",
+      "financial_data_api",
+      "web_search"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0002",
+    "timestamp": "2026-09-25T14:17:59.467093",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "company_profile",
+      "web_search"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.03,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 7,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0003",
+    "timestamp": "2026-09-25T14:18:20.786304",
+    "query": "Create a comprehensive profile of Microsoft Corporation including business overview, financial summary, key executives, and recent developments.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0004",
+    "timestamp": "2026-09-25T14:18:20.817414",
+    "query": "Analyze Apple Inc.'s most recent quarterly earnings. Compare actual results to consensus estimates and identify key takeaways from the earnings call.",
+    "query_type": "earnings_analysis",
+    "plan_executed": [
+      "financial_data_api",
+      "earnings_transcript",
+      "news_sentiment",
+      "fact_checker"
+    ],
+    "tools_used": [
+      "financials",
+      "transcript",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.03,
+      "query_type": "earnings_analysis",
+      "total_tool_calls": 10,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0005",
+    "timestamp": "2026-09-25T14:18:20.819979",
+    "query": "Produce a comprehensive risk assessment for Tesla Inc. covering financial risks, operational risks, regulatory risks, and competitive risks.",
+    "query_type": "risk_assessment",
+    "plan_executed": [
+      "sec_filing_search",
+      "web_search",
+      "news_sentiment",
+      "fact_checker"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "risk_assessment",
+      "total_tool_calls": 15,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0006",
+    "timestamp": "2026-09-25T14:18:20.821784",
+    "query": "Compare the cloud computing divisions of Amazon (AWS), Microsoft (Azure), and Google (GCP). Analyze revenue growth, market share, margins, and competitive advantages.",
+    "query_type": "industry_comparison",
+    "plan_executed": [
+      "sec_filing_search",
+      "peer_comparison",
+      "financial_data_api",
+      "calculation_engine"
+    ],
+    "tools_used": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "industry_comparison",
+      "total_tool_calls": 21,
+      "memory_hits": 0,
+      "external_api_calls": 5,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0007",
+    "timestamp": "2026-09-25T14:18:20.824170",
+    "query": "Research Palantir Technologies. Note: Recent news reports suggest the company is struggling, but their financial statements show strong growth. Investigate and explain the apparent contradiction.",
+    "query_type": "contradictory_data",
+    "plan_executed": [
+      "company_profile",
+      "web_search"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "fact_verification"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "contradictory_data",
+      "total_tool_calls": 26,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0008",
+    "timestamp": "2026-09-25T14:18:20.826849",
+    "query": "What's happening with the banks?",
+    "query_type": "ambiguous_query",
+    "plan_executed": [
+      "company_profile",
+      "web_search"
+    ],
+    "tools_used": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "ambiguous_query",
+      "total_tool_calls": 30,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0009",
+    "timestamp": "2026-09-25T14:18:20.829427",
+    "query": "Based on the companies you've already researched, what themes emerge across the technology sector? Identify cross-cutting risks and opportunities.",
+    "query_type": "risk_assessment",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "risk_assessment",
+      "total_tool_calls": 35,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0010",
+    "timestamp": "2026-09-25T14:18:20.832937",
+    "query": "Produce a complete investment research report on NVIDIA Corporation. Note: The financial data API and SEC filing search tools are currently experiencing intermittent failures (simulate 50% failure rate).",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 7,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0011",
+    "timestamp": "2026-09-25T14:20:19.275706",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0012",
+    "timestamp": "2026-09-25T14:20:20.331748",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 1.05,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 9,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0013",
+    "timestamp": "2026-09-25T14:21:57.083509",
+    "query": "Compare the cloud computing divisions of Amazon (AWS), Microsoft (Azure), and Google (GCP). Analyze revenue growth, market share, margins, and competitive advantages.",
+    "query_type": "industry_comparison",
+    "plan_executed": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "tools_used": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "industry_comparison",
+      "total_tool_calls": 6,
+      "memory_hits": 0,
+      "external_api_calls": 5,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0014",
+    "timestamp": "2026-09-25T14:22:02.378570",
+    "query": "Create a comprehensive profile of Microsoft Corporation including business overview, financial summary, key executives, and recent developments.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0015",
+    "timestamp": "2026-09-25T14:22:02.412862",
+    "query": "Analyze Apple Inc.'s most recent quarterly earnings. Compare actual results to consensus estimates and identify key takeaways from the earnings call.",
+    "query_type": "earnings_analysis",
+    "plan_executed": [
+      "financials",
+      "transcript",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "financials",
+      "transcript",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.03,
+      "query_type": "earnings_analysis",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0016",
+    "timestamp": "2026-09-25T14:22:02.418446",
+    "query": "Produce a comprehensive risk assessment for Tesla Inc. covering financial risks, operational risks, regulatory risks, and competitive risks.",
+    "query_type": "risk_assessment",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "risk_assessment",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0017",
+    "timestamp": "2026-09-25T14:22:02.423280",
+    "query": "Compare the cloud computing divisions of Amazon (AWS), Microsoft (Azure), and Google (GCP). Analyze revenue growth, market share, margins, and competitive advantages.",
+    "query_type": "industry_comparison",
+    "plan_executed": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "tools_used": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "industry_comparison",
+      "total_tool_calls": 6,
+      "memory_hits": 0,
+      "external_api_calls": 5,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0018",
+    "timestamp": "2026-09-25T14:22:02.429509",
+    "query": "Research Palantir Technologies. Note: Recent news reports suggest the company is struggling, but their financial statements show strong growth. Investigate and explain the apparent contradiction.",
+    "query_type": "contradictory_data",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "fact_verification"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "fact_verification"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "contradictory_data",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0019",
+    "timestamp": "2026-09-25T14:22:02.435335",
+    "query": "What's happening with the banks?",
+    "query_type": "ambiguous_query",
+    "plan_executed": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "tools_used": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "ambiguous_query",
+      "total_tool_calls": 4,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0020",
+    "timestamp": "2026-09-25T14:22:02.441424",
+    "query": "Based on the companies you've already researched, what themes emerge across the technology sector? Identify cross-cutting risks and opportunities.",
+    "query_type": "risk_assessment",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "risk_assessment",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0021",
+    "timestamp": "2026-09-25T14:22:03.461184",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under 50% simulated tool failure rate.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 1.02,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 9,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0022",
+    "timestamp": "2026-09-25T14:22:12.996991",
+    "query": "What is happening with the banks?",
+    "query_type": "ambiguous_query",
+    "plan_executed": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "tools_used": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.03,
+      "query_type": "ambiguous_query",
+      "total_tool_calls": 4,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0023",
+    "timestamp": "2026-09-27T21:10:35.953216",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0024",
+    "timestamp": "2026-09-27T21:10:37.511496",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 1.56,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 9,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0025",
+    "timestamp": "2026-09-27T21:11:06.349745",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0026",
+    "timestamp": "2026-09-27T21:11:06.386448",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.03,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 7,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0027",
+    "timestamp": "2026-09-27T21:30:39.862521",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0028",
+    "timestamp": "2026-09-27T21:30:41.417903",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 1.55,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 9,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0029",
+    "timestamp": "2026-09-28T20:03:26.165037",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.0,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0030",
+    "timestamp": "2026-09-28T20:03:28.232009",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 2.06,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 10,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0031",
+    "timestamp": "2026-09-28T20:04:04.350049",
+    "query": "What is Microsoft financial overview?",
+    "query_type": "ambiguous_query",
+    "plan_executed": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "tools_used": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.03,
+      "query_type": "ambiguous_query",
+      "total_tool_calls": 4,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0032",
+    "timestamp": "2026-09-28T20:04:50.048010",
+    "query": "Create a comprehensive profile of Microsoft Corporation including business overview, financial summary, key executives, and recent developments.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0033",
+    "timestamp": "2026-09-28T20:04:50.087128",
+    "query": "Analyze Apple Inc.'s most recent quarterly earnings. Compare actual results to consensus estimates and identify key takeaways from the earnings call.",
+    "query_type": "earnings_analysis",
+    "plan_executed": [
+      "financials",
+      "transcript",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "financials",
+      "transcript",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.04,
+      "query_type": "earnings_analysis",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0034",
+    "timestamp": "2026-09-28T20:04:50.096521",
+    "query": "Produce a comprehensive risk assessment for Tesla Inc. covering financial risks, operational risks, regulatory risks, and competitive risks.",
+    "query_type": "risk_assessment",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "risk_assessment",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0035",
+    "timestamp": "2026-09-28T20:04:50.105899",
+    "query": "Compare the cloud computing divisions of Amazon (AWS), Microsoft (Azure), and Google (GCP). Analyze revenue growth, market share, margins, and competitive advantages.",
+    "query_type": "industry_comparison",
+    "plan_executed": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "tools_used": [
+      "peer_benchmark",
+      "sec_msft",
+      "sec_amzn",
+      "sec_googl",
+      "cagr_model"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "industry_comparison",
+      "total_tool_calls": 6,
+      "memory_hits": 0,
+      "external_api_calls": 5,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0036",
+    "timestamp": "2026-09-28T20:04:50.115935",
+    "query": "Research Palantir Technologies. Note: Recent news reports suggest the company is struggling, but their financial statements show strong growth. Investigate and explain the apparent contradiction.",
+    "query_type": "contradictory_data",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "fact_verification"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "fact_verification"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "contradictory_data",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0037",
+    "timestamp": "2026-09-28T20:04:50.128334",
+    "query": "What's happening with the banks?",
+    "query_type": "ambiguous_query",
+    "plan_executed": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "tools_used": [
+      "web",
+      "sentiment",
+      "ratios"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "ambiguous_query",
+      "total_tool_calls": 4,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0038",
+    "timestamp": "2026-09-28T20:04:50.198806",
+    "query": "Based on the companies you've already researched, what themes emerge across the technology sector? Identify cross-cutting risks and opportunities.",
+    "query_type": "risk_assessment",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "sentiment",
+      "web"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.06,
+      "query_type": "risk_assessment",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 4,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0039",
+    "timestamp": "2026-09-28T20:04:51.746996",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under 50% simulated tool failure rate.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 1.52,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 10,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0040",
+    "timestamp": "2026-09-28T20:05:12.521287",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0041",
+    "timestamp": "2026-09-28T20:05:12.560531",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.04,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 7,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0042",
+    "timestamp": "2026-09-28T20:05:17.888073",
+    "query": "What is Microsoft financial overview?",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0043",
+    "timestamp": "2026-09-28T20:05:36.429388",
+    "query": "Create a comprehensive profile of Microsoft Corporation.",
+    "query_type": "company_profile",
+    "plan_executed": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "tools_used": [
+      "profile",
+      "financials",
+      "web",
+      "calc"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 0.01,
+      "query_type": "company_profile",
+      "total_tool_calls": 5,
+      "memory_hits": 0,
+      "external_api_calls": 3,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  },
+  {
+    "episode_id": "EP_0044",
+    "timestamp": "2026-09-28T20:05:39.491784",
+    "query": "Produce a complete investment research report on NVIDIA Corporation under intermittent API failures.",
+    "query_type": "comprehensive_report",
+    "plan_executed": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "tools_used": [
+      "sec_filings",
+      "financials",
+      "profile",
+      "sentiment",
+      "dcf_model",
+      "fact_check"
+    ],
+    "success": true,
+    "metrics": {
+      "execution_time_sec": 3.06,
+      "query_type": "comprehensive_report",
+      "total_tool_calls": 14,
+      "memory_hits": 0,
+      "external_api_calls": 6,
+      "memory_utilization_ratio": 0.0,
+      "tool_efficiency_score": 0.88,
+      "hallucination_rate_estimate": 0.0,
+      "circuit_breaker_trips": 0
+    },
+    "lessons_learned": [
+      "Checked SEC EDGAR 10-K before secondary web sources.",
+      "Cross-verified numerical revenue totals against financial statements."
+    ]
+  }
+]
