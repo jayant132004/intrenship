@@ -12,6 +12,11 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import urllib.parse
 from typing import Dict, Any, List
 
+# Ensure workspace root is in python path
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
 from agent.core import AutonomousFinancialResearchAgent
 from tools.tool_registry import ToolRegistry
 from memory.vector_store import VectorMemoryStore
