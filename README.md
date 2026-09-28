@@ -62,8 +62,8 @@ Given an unstructured or ambiguous research query, ARA-1 independently:
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/jayant132004/intrenship.git
-cd intrenship
+git clone https://github.com/jayant132004/Project1A-jayant-AutonomousFinancialResearchAgent.git
+cd Project1A-jayant-AutonomousFinancialResearchAgent
 
 # Create & activate virtual environment
 python3 -m venv venv
